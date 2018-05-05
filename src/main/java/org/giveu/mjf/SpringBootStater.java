@@ -16,7 +16,6 @@ public class SpringBootStater {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootStater.class, args);
 		LOGGER.info("SpringBootStater run success!");
-		
 	}
 	
 	@RequestMapping("/hello")
