@@ -23,6 +23,7 @@ public class SpringBootStater {
 		LOGGER.info("hello");
 		LOGGER.debug("debug=====");
 		LOGGER.error("error");
+		LOGGER.error("error=====");
 		return "OK";
 	}
 
