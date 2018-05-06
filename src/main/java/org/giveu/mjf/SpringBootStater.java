@@ -34,6 +34,7 @@ public class SpringBootStater {
 		LOGGER.error("error");
 		LOGGER.error("error=====");
 		return "OK";
+		
 	}
 	
 	@RequestMapping("/redis")
