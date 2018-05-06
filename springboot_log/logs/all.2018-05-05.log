@@ -1,0 +1,100 @@
+2018-05-05 20:09:47.723 INFO  [main] org.giveu.mjf.SpringBootStater:48 - Starting SpringBootStater on TC-20170522IJUX with PID 9732 (E:\code\spring-cloud\springboot\target\classes started by Caffee in E:\code\spring-cloud\springboot)
+2018-05-05 20:09:47.729 INFO  [main] org.giveu.mjf.SpringBootStater:593 - No active profile set, falling back to default profiles: default
+2018-05-05 20:09:47.822 INFO  [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c34f934: startup date [Sat May 05 20:09:47 CST 2018]; root of context hierarchy
+2018-05-05 20:09:48.368 INFO  [background-preinit] o.h.validator.internal.util.Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+2018-05-05 20:09:50.179 INFO  [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2018-05-05 20:09:50.227 INFO  [main] o.a.catalina.core.StandardService:179 - Starting service [Tomcat]
+2018-05-05 20:09:50.230 INFO  [main] o.a.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-05-05 20:09:50.441 INFO  [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
+2018-05-05 20:09:50.443 INFO  [localhost-startStop-1] o.s.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 2621 ms
+2018-05-05 20:09:50.690 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-05 20:09:50.697 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-05 20:09:50.699 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-05 20:09:50.700 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-05 20:09:50.702 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-05 20:09:51.158 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c34f934: startup date [Sat May 05 20:09:47 CST 2018]; root of context hierarchy
+2018-05-05 20:09:51.269 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/hello]}" onto public java.lang.String org.giveu.mjf.SpringBootStater.hello()
+2018-05-05 20:09:51.273 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-05 20:09:51.274 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-05 20:09:51.318 INFO  [main] o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 20:09:51.319 INFO  [main] o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 20:09:51.383 INFO  [main] o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 20:09:51.621 INFO  [main] o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-05-05 20:09:51.643 INFO  [main] o.a.coyote.http11.Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-05 20:09:51.661 INFO  [main] o.a.coyote.http11.Http11NioProtocol:179 - Starting ProtocolHandler ["http-nio-8080"]
+2018-05-05 20:09:51.680 INFO  [main] o.a.tomcat.util.net.NioSelectorPool:179 - Using a shared selector for servlet write/read
+2018-05-05 20:09:51.708 INFO  [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2018-05-05 20:09:51.716 INFO  [main] org.giveu.mjf.SpringBootStater:57 - Started SpringBootStater in 4.424 seconds (JVM running for 5.202)
+2018-05-05 20:09:51.717 INFO  [main] org.giveu.mjf.SpringBootStater:18 - SpringBootStater run success!
+2018-05-05 20:09:54.368 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-05 20:09:54.369 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-05 20:09:54.388 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2018-05-05 20:09:54.416 INFO  [http-nio-8080-exec-1] org.giveu.mjf.SpringBootStater:23 - hello
+2018-05-05 20:10:46.775 INFO  [main] org.giveu.mjf.SpringBootStater:48 - Starting SpringBootStater on TC-20170522IJUX with PID 7376 (E:\code\spring-cloud\springboot\target\classes started by Caffee in E:\code\spring-cloud\springboot)
+2018-05-05 20:10:46.780 INFO  [main] org.giveu.mjf.SpringBootStater:593 - No active profile set, falling back to default profiles: default
+2018-05-05 20:10:46.869 INFO  [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c34f934: startup date [Sat May 05 20:10:46 CST 2018]; root of context hierarchy
+2018-05-05 20:10:47.378 INFO  [background-preinit] o.h.validator.internal.util.Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+2018-05-05 20:10:49.282 INFO  [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2018-05-05 20:10:49.315 INFO  [main] o.a.catalina.core.StandardService:179 - Starting service [Tomcat]
+2018-05-05 20:10:49.318 INFO  [main] o.a.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-05-05 20:10:49.511 INFO  [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
+2018-05-05 20:10:49.512 INFO  [localhost-startStop-1] o.s.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 2643 ms
+2018-05-05 20:10:49.737 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-05 20:10:49.748 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-05 20:10:49.752 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-05 20:10:49.753 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-05 20:10:49.753 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-05 20:10:50.290 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c34f934: startup date [Sat May 05 20:10:46 CST 2018]; root of context hierarchy
+2018-05-05 20:10:50.425 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/hello]}" onto public java.lang.String org.giveu.mjf.SpringBootStater.hello()
+2018-05-05 20:10:50.431 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-05 20:10:50.432 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-05 20:10:50.490 INFO  [main] o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 20:10:50.490 INFO  [main] o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 20:10:50.553 INFO  [main] o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 20:10:50.787 INFO  [main] o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-05-05 20:10:50.811 INFO  [main] o.a.coyote.http11.Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-05 20:10:50.842 INFO  [main] o.a.coyote.http11.Http11NioProtocol:179 - Starting ProtocolHandler ["http-nio-8080"]
+2018-05-05 20:10:50.864 INFO  [main] o.a.tomcat.util.net.NioSelectorPool:179 - Using a shared selector for servlet write/read
+2018-05-05 20:10:50.887 INFO  [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2018-05-05 20:10:50.898 INFO  [main] org.giveu.mjf.SpringBootStater:57 - Started SpringBootStater in 4.489 seconds (JVM running for 5.268)
+2018-05-05 20:10:50.898 INFO  [main] org.giveu.mjf.SpringBootStater:18 - SpringBootStater run success!
+2018-05-05 20:10:53.269 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-05 20:10:53.269 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-05 20:10:53.292 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2018-05-05 20:10:53.326 INFO  [http-nio-8080-exec-1] org.giveu.mjf.SpringBootStater:23 - hello
+2018-05-05 20:10:53.326 ERROR [http-nio-8080-exec-1] org.giveu.mjf.SpringBootStater:25 - error
+2018-05-05 20:12:22.963 INFO  [main] org.giveu.mjf.SpringBootStater:48 - Starting SpringBootStater on TC-20170522IJUX with PID 8168 (E:\code\spring-cloud\springboot\target\classes started by Caffee in E:\code\spring-cloud\springboot)
+2018-05-05 20:12:22.968 DEBUG [main] org.giveu.mjf.SpringBootStater:51 - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-05-05 20:12:22.968 INFO  [main] org.giveu.mjf.SpringBootStater:593 - No active profile set, falling back to default profiles: default
+2018-05-05 20:12:23.056 INFO  [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@240237d2: startup date [Sat May 05 20:12:23 CST 2018]; root of context hierarchy
+2018-05-05 20:12:23.691 INFO  [background-preinit] o.h.validator.internal.util.Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+2018-05-05 20:12:25.781 INFO  [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2018-05-05 20:12:25.795 INFO  [main] o.a.catalina.core.StandardService:179 - Starting service [Tomcat]
+2018-05-05 20:12:25.799 INFO  [main] o.a.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-05-05 20:12:26.637 INFO  [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
+2018-05-05 20:12:26.637 INFO  [localhost-startStop-1] o.s.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 3581 ms
+2018-05-05 20:12:26.872 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-05 20:12:26.897 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-05 20:12:26.901 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-05 20:12:26.901 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-05 20:12:26.901 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-05 20:12:27.407 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@240237d2: startup date [Sat May 05 20:12:23 CST 2018]; root of context hierarchy
+2018-05-05 20:12:27.513 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/hello]}" onto public java.lang.String org.giveu.mjf.SpringBootStater.hello()
+2018-05-05 20:12:27.518 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-05 20:12:27.519 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-05 20:12:27.561 INFO  [main] o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 20:12:27.561 INFO  [main] o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 20:12:27.629 INFO  [main] o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 20:12:27.863 INFO  [main] o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-05-05 20:12:27.885 INFO  [main] o.a.coyote.http11.Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-05 20:12:27.901 INFO  [main] o.a.coyote.http11.Http11NioProtocol:179 - Starting ProtocolHandler ["http-nio-8080"]
+2018-05-05 20:12:27.932 INFO  [main] o.a.tomcat.util.net.NioSelectorPool:179 - Using a shared selector for servlet write/read
+2018-05-05 20:12:27.962 INFO  [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2018-05-05 20:12:27.974 INFO  [main] org.giveu.mjf.SpringBootStater:57 - Started SpringBootStater in 5.423 seconds (JVM running for 7.151)
+2018-05-05 20:12:27.974 INFO  [main] org.giveu.mjf.SpringBootStater:18 - SpringBootStater run success!
+2018-05-05 20:12:30.755 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-05 20:12:30.756 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-05 20:12:30.786 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2018-05-05 20:12:30.824 INFO  [http-nio-8080-exec-1] org.giveu.mjf.SpringBootStater:23 - hello
+2018-05-05 20:12:30.824 DEBUG [http-nio-8080-exec-1] org.giveu.mjf.SpringBootStater:24 - debug=====
+2018-05-05 20:12:30.824 ERROR [http-nio-8080-exec-1] org.giveu.mjf.SpringBootStater:25 - error
