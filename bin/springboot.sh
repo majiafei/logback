@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 _JAR_KEYWORDS=springboot-0.0.1-SNAPSHOT.jar
 APP_NAME=springboot
 ACTIVE=tes
